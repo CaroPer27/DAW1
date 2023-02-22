@@ -1,52 +1,29 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desarrollo de aplicaciones web</title>
+    <title>Formulario de registro - mi web</title>
+
 </head>
 <body>
-    Aprender a usar HTML
-    <h1>Título principal</h1>
-    <h2>Titulo de nivel superior</h2>
-    <h3>Subtítulo</h3>
-    <h4>Sub-Subtítulo</h4>
-    <img src="images/images.png" alt="Mi imagen de prueba">
-    <p>Desarrolla aplicaciones Web a partir del manejo de las diferentes arquitecturas, patrones de diseño y buenas prácticas</p>
-    <p>En Mozilla, somos una comunidad de:</p>
-    <ul>
-        <li>Tecnólogos</li>
-        <li>Pensadores</li>
-        <li>Constructores</li>
-    </ul>
-    <p>Trabajando juntos</p>
-    <ol>
-        <li>Anuncios</li>
-        <li>Habra un examen al final del curso!</li>
-        <li>Y tambien en cada parcial :)</li>
-        <li>Estar preparados es importante</li>
-        <li>Aprender HTML es fácil</li>
+    <h1>Formulario de registro</h1>
+    
+    <form action="" method="get">
 
-    </ol>
-    <a href="https://www.mozilla.org">Manifesto Mozilla</a>
-    <a href="https://google.com",title="Desarrollo de aplicaciones web",target="_blank">Ver examen</a>
-    <a href="https://google.com">Un enlace a mi ejemplo.</a>
-<a href='https://google.com'>Un enlace a mi ejemplo.</a>
-<a href='https://google.com' title='¿A que es &apos;divertido&apos;?'> Un
-enlace a mi ejemplo. </a>
+    <p>Nombre: <input type="text" name="nombre" id="nombre" maxlength="50" required></p>
+    <p>Apellidos: <input type="text" name="Apellidos" id="Apellidos" maxlength="50"></p>
+    <p>Sexo: <input type="radio" name="sexo" value="h "/>hombre
+    <input type="radio" name="sexo" value="m"/>mujer
+    </p>
+    <p>Correo: <input type="text" name="correo" id="correo" maxlength="50">
+    Email: <input type="email" name="email" id="email"></p>
+    <p><input type="checkbox" name="info" checked="checked">Deseo recibir informacion sobre novedades y ofertas "debe estar activada por defecto"</p>
+    <p><input type="checkbox" name="condiciones" >Lei condiciones y politicas</p>
+    <p><input type="submit" value="Enviar"></p>
 
+    </form>
 
-    anuncios
-    Habrá un examen al final del curso!
-    Y también en cada parcial :)
-    Estar preparados es importante
-    Aprender HTML es fácil
-    Ver examen
-
-    <p>En HTML, defines un párrafo con el elemento <p>.</p>
-<p>En HTML, defines un párrafo con el elemento &lt;p&gt;.</p>
-<p>No soy un comentario</p>
-<!-- <p>¡Yo sí!</p> -->
 </body>
 </html>
