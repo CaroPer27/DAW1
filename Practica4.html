@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/estillo2.css">
+    <title>Practica-Formulario</title>
+</head>
+
+<body>
+    <form method="post">
+    <fieldset>
+            <legend>Detalles de la foto</legend>
+            <P>
+                Titulo <br>
+                <input type="text" name="text" id="txt">
+            </P>
+            <p>
+                Descripción <br>
+                <textarea cols="175" rows="15"></textarea>
+            </p>
+            <div class="columna_izquierda">
+                <p>
+                    Continente <br>
+                    <select name="Esccogercontinente">
+                        <option value="africa">África</option>
+                        <option value="asia">Asia</option>
+                        <option value="eurpa">Europa</option>
+                        <option value="nortea">Norte América</option>
+                        <option value="sura">Sur América</option>
+                    </select>
+                </p>
+                <p>
+                    País <br>
+                    <select name="pais" id="pais">
+                        <option value="canada">Canada</option>
+                        <option value="mexico">México</option>
+                        <option value="eua">Estados Unidos</option>
+                    </select>
+                </p>
+                <p>
+                    Ciudad <br>
+                    <input list="ciudad">
+                    <datalist id="ciudad">
+                        <option value="Calgary"></option>
+                        <option value="Montreal"></option>
+                        <option value="Toronto"></option>
+                        <option value="Vancouver"></option>
+                        <option value="Tlaxcala"></option>
+                    </datalist>
+                </p>
+                <p>
+                    Acepto la licencia de software  <input type="checkbox" name="licencia" id="licencia">
+                </p>
+                <p>
+                    Califica esta foto: <br>
+                    <input type="number" name="calif" id="calif">
+                </p>
+                <p>
+                    Colección de color: <br>
+                    <input type="color" name="color" id="color">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                </p>  
+            </div>
+
+            <div class="columna_central">
+                <p>
+                    Copyrigh? <br>
+
+                    <input type="radio" name="derechos" id="todosderechos"> Todos los derechos reservados<br>
+                    <input type="radio" name="derechos" id="creativec"> Creative commons<br>
+                    Licencias Creative Commons <br>
+                    <input type="checkbox" name="Atribucion" id="Atribucion">Atribucion <br>
+                    <input type="checkbox" name="nocomercia" id="nocomercia"> No comercial <br>
+                    <input type="checkbox" name="notrabajos" id="notrabajos"> No hay trabajos derivados <br>
+                    <input type="checkbox" name="compartirigual" id="compartirigual"> Compartir por igual <br>
+                </p>
+                <p>
+                    Fecha de toma: <br>
+                    <input type="date" name="fecha" id="fecha"> <br>
+                    Hora de toma: <br>
+                    <input type="time" name="hora" id="hora">
+
+                </p>
+            </div>
+        
+    </fieldset>
+    </form>
+
+
+
+</body>
+</html>
