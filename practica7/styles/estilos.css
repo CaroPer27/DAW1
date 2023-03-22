@@ -1,0 +1,53 @@
+html {
+    background-size: 100%;
+    background-image: url(../images/art-background4.jpg);
+    background-repeat: no-repeat;
+}
+.titulo{
+    font-size: 25px;
+    font-family: 'Six Caps', sans-serif;
+}
+.eslogan{
+    font-size: 15px;
+    font-family: 'Six Caps', sans-serif;
+}
+
+header{
+    background-color: white;
+    margin-top: -1rem;
+    margin-right: 70%;
+    margin-left: 5%;
+    padding: 1%;
+}
+article{
+    font-family: 'Six Caps', sans-serif;
+    background-color: rgb(255, 255, 255, .3);
+    margin-left: 5%;
+    margin-right: 50%;
+    margin-top: 5rem;
+}
+.primero{
+    background-color: rgb(255, 255, 255, .5);
+    padding-left: 1rem;
+    padding-right: 3rem;
+}
+.sitio{
+    font-weight: bold;
+    padding-left: 1rem;
+}
+.tiempo{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 0, 0,.6);
+    margin-left: 1rem;
+    margin-right: 15%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+footer{
+    background-color: rgb(255, 255, 255,.7);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+}
