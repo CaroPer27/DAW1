@@ -1,0 +1,146 @@
+html, body, header, footer, hgroup, nav, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   border: 0;
+}
+header{
+   background-color: cornflowerblue;
+   display: flex;
+   padding: .75rem 0 0.75rem 3rem;
+}
+nav ul li{
+   display: inline;
+   margin-left: 2rem;
+}
+header a:link{
+   color: white;
+   text-decoration: none;
+   font-size: 1.25rem;
+}
+#crm{
+   font-size: 2rem;
+   font-weight: bold;
+   text-decoration: none;
+}
+#tablero{
+   align-items: center;
+   margin: 0 25%;
+}
+h2{
+   font-size: 2rem;
+   padding: 2rem 0;
+}
+.izquierda{
+   float: left;
+   margin-bottom: 10px;
+}
+.derecha{
+   float: right;
+}
+table{
+   clear: both;
+   padding: 3px;
+}
+#rayita{
+   clear: both;
+}
+.boton{
+   display: inline-block;
+   background-color: cornflowerblue;
+   color: white;
+   text-decoration: none;
+   padding: 1%;
+}
+.bloqueizquierdo{
+   float: left;
+   margin: -48% 0 0 0;
+   
+}
+.bloqueizquierdo ul li{
+   display: block;
+}
+aside{
+   float: right;
+   margin: -49% -3% 0 0;
+}
+.juan{
+   background-color: rgb(179, 181, 184);
+   color: rgb(99, 99, 99);
+   padding: 1em;
+}
+.cuadro{
+   background-color: rgb(211, 209, 209);
+   margin: 1em 0 ;
+}
+.msjs{
+   background-color: rgb(211, 209, 209);
+   margin: 1em 0 ;
+   padding: 0.4em;
+   padding-bottom: 2.4em;
+}
+.msjs h3{
+   background-color: rgb(116, 189, 223);
+   margin: 1em 1em;
+   padding: 1em ;
+}
+.msjs ul li{
+   background-color: white;
+   margin: 1em 1em -1em;
+   padding: 0.5em;
+}
+.msjs img{
+   float: left;
+   padding: 0 1em;
+}
+aside ul li{
+   display: block;
+}
+.cambios{
+   position: absolute;
+   float: right;
+   background-color: rgb(211, 209, 209);
+   margin: .8em 0 ;
+   margin-left: 4.5%;
+   padding: 1em ;
+}
+.cambios span{
+   position: absolute;
+   float: left;
+   color: gray;
+   font-size: 2em;
+}
+.cambios h3{
+   background-color: rgb(116, 189, 223);
+   padding: .45em ;
+}
+.cambios p{
+   padding: 1em 5em;
+
+}
+.cambios ul li{
+   background-color: white;
+   padding-left: 2rem;
+}
+.mejores{
+   position: relative;
+   float: right;
+   background-color: rgb(211, 209, 209);
+   margin-top: 73%;
+   margin-left: 15%;
+   padding: 1em;
+
+}
+.mejores h3{
+   background-color: rgb(116, 189, 223);
+   padding: .45em ;
+}
+.mejores ul li{
+   background-color: white;
+   padding-left: 2rem;
+}
+.mejores img{
+   position: relative;
+}
