@@ -3,6 +3,14 @@ function createImage(src) {
     image.src = src;
     return image;
 }
+const albumView =document.querySelector('#album-view');
+for (let i = 0; i <PHOTO_LIST.length; i++){
+    const photoSrc = PHOTO_LIST[i];
+    const image = createImage(photoSrc);
+    albumView.appendChild(image);
+    image.addEventListener('click', onThumbnailClick);
+    
+}
 
 function onThumbnailClick(event) {
     const image = createImage(event.currentTarget.src);
@@ -11,20 +19,10 @@ function onThumbnailClick(event) {
     modalView.appendChild(image);
     modalView.classList.remove('hidden');
 }
-
 function onModalClick(){
     document.body.classList.remove('no-scroll');
     modalView.classList.add('hidden');
     modalView.innerHTML = '';
-}
-
-const albumView =document.querySelector('#album-view');
-
-for (let i = 0; i >PHOTO_LIST.length; i++){
-    const photoSrc = PHOTO_LIST[i];
-    const image = createImage(photoSrc);
-    image.addEventListener('click', onThumbnailClick);
-    albumView.appendChild(image);
 }
 
 const modalView = document.querySelector('#modal-view');
